@@ -1,0 +1,25 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+  background-color: #d5e1ef;
+}
+
+.contenedor__principal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__principal{
+  background-color: white;
+  width: 320px;
+  height: 499px;
+  border-radius: 20px;
+
+}
